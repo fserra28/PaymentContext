@@ -1634,7 +1634,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "PaymentContext.Shared": "1.0.0"
+          "PaymentContext.Shared": "1.0.0",
+          "flunt": "1.0.2"
         },
         "compile": {
           "bin/placeholder/PaymentContext.Domain.dll": {}
@@ -5780,7 +5781,8 @@
       "Microsoft.NET.Test.Sdk >= 15.8.0",
       "Microsoft.NETCore.App >= 2.1.0",
       "PaymentContext.Domain >= 1.0.0",
-      "PaymentContext.Shared >= 1.0.0"
+      "PaymentContext.Shared >= 1.0.0",
+      "flunt >= 1.0.2"
     ]
   },
   "packageFolders": {
@@ -5790,11 +5792,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\PaymentContext\\PaymentContext.Test\\PaymentContext.Test.csproj",
+      "projectUniqueName": "C:\\dev\\PaymentContext\\PaymentContext.Test\\PaymentContext.Test.csproj",
       "projectName": "PaymentContext.Test",
-      "projectPath": "c:\\dev\\PaymentContext\\PaymentContext.Test\\PaymentContext.Test.csproj",
+      "projectPath": "C:\\dev\\PaymentContext\\PaymentContext.Test\\PaymentContext.Test.csproj",
       "packagesPath": "C:\\Users\\Filipe Serra\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\PaymentContext\\PaymentContext.Test\\obj\\",
+      "outputPath": "C:\\dev\\PaymentContext\\PaymentContext.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5813,11 +5815,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "c:\\dev\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
-              "projectPath": "c:\\dev\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
+            "C:\\dev\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+              "projectPath": "C:\\dev\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
             },
-            "c:\\dev\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-              "projectPath": "c:\\dev\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+            "C:\\dev\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+              "projectPath": "C:\\dev\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
             }
           }
         }
@@ -5848,6 +5850,10 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "flunt": {
+            "target": "Package",
+            "version": "[1.0.2, )"
           }
         },
         "imports": [
